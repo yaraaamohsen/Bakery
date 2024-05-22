@@ -1,0 +1,304 @@
+body{
+   margin: 0%;
+}
+.container{
+   width: 80%;
+   margin: auto;
+   padding: 100px 0;
+}
+.clear-fix{
+   clear: both;
+}
+h1, h2 , h3 , a{
+    color: rgb(255, 255, 255);
+}
+h1{
+   font-size: 80px;
+   font-weight:normal;
+}
+h2 , h3 , a{
+   font-weight: 400;
+}
+h1 , a{
+   font-family: "Alegreya", serif;
+}
+h2,h3,p{
+    font-family: "Alegreya Sans", sans-serif;
+}
+h2.special{
+    color: rgb(48, 48, 48);
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Alegreya", serif;
+}
+h4{
+   font-family: "Alegreya", serif;
+   font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+}
+h3.special{
+    color: rgb(48, 48, 48);
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Alegreya", serif;
+}
+a{
+   text-decoration: none;
+}
+p{
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+}
+/* <intro> */
+ .logo{
+    float: left;
+ }
+ .logo img{
+    width: 200px;
+ }
+ .menu{
+    float: right;
+ }
+ .menupart{
+    display: inline-block;
+    margin: 10px;
+ }
+ .header{
+    margin: 30px 70px;
+ }
+.intro{
+    text-align: center;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+.brand-name{
+    display: inline-block;
+    width: 600px;
+    margin-top: 100px;
+}
+.button{
+    text-align: center;
+}
+.learn{
+    width: 150px;
+    display: inline-block;
+    background-color: #9B7950;
+    margin-right: 30px;
+}
+.contact{
+    width: 150px;
+    display: inline-block;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+/* </intro> */
+
+/* <Secondpage> */
+.sourdough{
+   width: 45%;
+   float: left;
+}
+.sourdough img{
+   width: 100%;
+}
+.who-we-are{
+   width: 40%;
+   float: left;
+   padding: 50px 0 50px 100px;
+}
+.icon{
+   width: 90%;
+   display: inline;
+}
+.icon img{
+   width: 10%;
+   vertical-align: middle;
+   border-radius: 50%;
+   border: solid  #f0e8e8;
+ } 
+ .text{
+   width: 40%;
+   display: inline-block;
+   margin-right: 80px;
+   vertical-align: middle;
+}
+.who-we-are h2{
+   margin-top: 0;
+}
+/* </Secondpage> */
+
+/* <Thirdpage> */ 
+.thirdpage{
+   background-color:aliceblue;
+ }
+.text{
+   float: left;
+   width: 40%;
+   padding-top: 100px;
+}
+.thirdimg{
+   width: 45%;
+   margin-left: 50px;
+   float: left;
+ }
+ .thirdimg img{
+   width: 100%;
+ }
+/* </ThirdPage> */
+ 
+/* <FourthPage> */
+ .title{
+    text-align: center;
+ }
+ .item{
+    float: left;
+    width: 33.3333333%;
+    text-align: center;
+    border: 20px;
+ }
+ .item-text{
+   padding: 0 30px;
+ }
+ .item img{
+    width: 90%;
+    align-items: center;
+ }
+ /* </FourthPage> */
+
+ /* <FifthPage> */
+ .fifthpage{
+    background-color:#F8F8F8 ;
+ }
+ .details{
+    width: 40%;
+    float: left;
+    padding-right: 10%;
+ }
+ .detail{
+   display: inline;
+ }
+ .detail img{
+    width: 40px;
+    background-color: #8E7754;
+    border-radius: 50%; 
+    vertical-align: middle;
+ }
+/* </FifthPage> */
+
+/* <SixthPage> */
+/*.sixthpage{
+   background-color: #403D38;
+   height: 70vh;
+}
+ .about{
+   margin: 0 5px;
+    width: 24%;
+    float: left;
+ }
+ .about.earth{
+    background-image: url(../images/contact-details-map.png);
+    background-size: 100% 100%;
+   background-position: center;
+    overflow: auto;
+ }
+
+ .about.earth img{
+   opacity: 30%;
+ }
+
+ .about img{
+    width: 20px;
+ }
+.sixthpage .container p{
+   ;font-family: "Alegreya Sans", sans-serif;
+   font-size: 16px;
+   color: rgb(150, 150, 150);
+   font-weight: 400
+}
+br{
+   border-style: solid;
+   border-color: #353330;
+   border-width: 200px;
+   
+}
+.breakline p{
+   border-bottom: 1px solid #353330; 
+   padding-bottom: 5px;
+ }
+ .bakery{
+   height: 45vh;
+   background-color: #353330;
+   text-align: center;
+}
+.bakery img{
+   width: 350px;
+   margin-top: 50px;
+}
+.socialmedia img{
+   display: inline-block;
+   width: 40px;
+   margin-top: 0px;
+}
+  */
+
+
+/* <lastpart> */
+.lastpart{
+   background-color: #403D38;
+}
+.about-item{
+   margin: 5px;
+   width: calc(25% - 10px);
+   float: left;
+   
+}
+.about-item p img{
+   width: 7%;
+   vertical-align: middle;
+}
+.breakline p{
+   border-bottom: 1px solid #353330; 
+   padding-bottom: 5px;
+}
+.lastpart p{
+   color: rgb(150, 150, 150);
+   font-size: 16px;
+}
+.about-item ul{
+   padding: 0;
+   margin: 0;
+   li{
+      list-style: none;
+   }
+}
+.map-bg ul{
+   background-image: url(../images/contact-details-map.png) , linear-gradient(rgba(64, 61, 56, 0.9) , rgba(64, 61, 56, 0.9) );
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position-y: center;
+
+}
+.map-bg ul li{
+   margin: 30px 0;
+}
+/* </lastpart> */
+
+footer{
+   background-color: #353330;
+   text-align: center;
+}
+footer .container{
+   padding: 50px 0;
+}
+.socialmedia a img{
+   display: inline-block;
+   width: 3%;
+   background-color: #484540;
+   border-radius: 50%;
+   padding: 5px;
+}

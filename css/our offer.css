@@ -1,0 +1,178 @@
+body{
+    margin: 0%;
+    background-color: #FFFFFF;
+}
+
+h1{
+    font-family: "Alegreya", serif;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    line-height: 77px;
+    font-weight: 400;
+
+}
+h3{
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h2{
+    font-family: "Alegreya", serif;
+    color: rgb(48, 48, 48);
+    font-size: 32px;
+    font-weight: 400; 
+}
+h4{
+    font-family:"Alegreya", serif;
+    color: rgb(48, 48, 48);
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #353330;
+    border-width: 80%;
+}
+h5{
+    font-family: "Alegreya", serif;
+   font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+a{text-decoration: none;}
+p{
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgb(96, 96, 96);
+    font-size: 18px;
+    font-weight: 400;
+}
+.logo{
+    float: left;
+ }
+
+ .logo img{
+    width: 200px;
+ }
+
+ .menu{
+    float: right;
+ }
+ .menupart{
+    display: inline-block;
+    margin: 10px;
+ }
+
+ .header{
+    margin: 30px 70px;
+ }
+
+ .firstpart
+ {
+    margin: 0%;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    overflow: auto;
+    height: 30vh;
+    text-align: center;
+    width: 100%;
+ }
+
+ .content1{
+    margin-top: 50px ;
+ }
+.secondpart{
+    margin: 80px 50px 20px 150px;
+}
+ .img1 img{
+    width: 550px;
+    float: left;
+}
+.content2{
+    float: left;
+    width: 580px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.price{
+   float: right;
+}
+.thirdpart{
+   
+}
+.address{
+    text-align: center;
+}
+
+.content3{
+    width: 33.33333%;
+    float: left;
+}
+
+.thirdcontent{
+    margin: 50px 100px;
+}
+.clear-fix{
+    clear: both;
+}
+
+.sixthpage{
+    background-color: #403D38;
+    height: 60vh;
+ }
+ .p6{
+    margin: 50px 50px 50px 150px;
+  }
+  .about{
+     width: 300px;
+     float: left;
+     font-size: 16px;
+     margin-top: 50px;
+     margin-right: 20px;
+     font-size: 18px;
+     
+  }
+ 
+  .about.earth{
+     background-image: url(../images/contact-details-map.png);
+     background-size: 100% 100%;
+    background-position: center;
+     overflow: auto;
+  }
+ 
+  .about.earth img{
+    opacity: 30%;
+  }
+ 
+  .about img{
+     width: 20px;
+  }
+ 
+  .bakery{
+     height: 45vh;
+     background-color: #353330;
+     text-align: center;
+  }
+ 
+  .bakery img{
+     width: 350px;
+     margin-top: 50px;
+  }
+ 
+  .socialmedia img{
+     display: inline-block;
+     width: 40px;
+     margin-top: 0px;
+  }
+  span{
+     vertical-align:middle;
+  }
+ .last p{
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(150, 150, 150);
+    font-weight: 400;
+ }
+ 
+ .breakline p{
+    border-bottom: 1px solid #353330; 
+    padding-bottom: 5px;
+  }
